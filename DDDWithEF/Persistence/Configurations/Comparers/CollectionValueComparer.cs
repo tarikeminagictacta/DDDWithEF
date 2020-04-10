@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace DDDWithEF.Persistence.Configurations
+namespace DDDWithEF.Persistence.Configurations.Comparers
 {
     public class CollectionValueComparer<T> : ValueComparer<ICollection<T>>
     {

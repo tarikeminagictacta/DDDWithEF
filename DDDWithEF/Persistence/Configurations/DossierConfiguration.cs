@@ -1,5 +1,6 @@
 ﻿using DDDWithEF.Models;
 using DDDWithEF.Models.Entities;
+using DDDWithEF.Persistence.Configurations.Comparers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
